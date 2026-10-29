@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="План поездки в Батуми 16-22 июня 2027 на 6-10 человек: дни, Сванетия туром или на машине, жилье в Местии, экскурсии и цены.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Батуми и Сванетия">
+<meta property="og:description" content="План поездки в Батуми 16-22 июня 2027 на 6-10 человек: дни, Сванетия туром или на машине, жилье в Местии, экскурсии и цены.">
+<meta name="theme-color" content="#F1F4F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1416" media="(prefers-color-scheme: dark)">
+<title>Батуми и Сванетия</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Noto+Serif+Georgian:wght@500&display=swap">
+<style>
+/* Одна колонка до 680px под телефон; липкая панель выбора (сколько нас, как едем в горы); дни - как расписание с часами слева */
+:root{
+  --bg:#F1F4F3;
+  --surface:#FFFFFF;
+  --ink:#17222B;
+  --muted:#56646D;
+  --line:#D5DCDE;
+  --sea:#0C676D;
+  --sea-soft:#DCECEC;
+  --wine:#8B2B49;
+  --wine-soft:#F4E3E9;
+  --f-display:"Forum", Georgia, "Times New Roman", serif;
+  --f-body:"Golos Text", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --f-geo:"Noto Serif Georgian", "Noto Sans Georgian", serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1416; --surface:#151F23; --ink:#E3EAEC; --muted:#98A7AE; --line:#29363B;
+    --sea:#5DBEC0; --sea-soft:#13302F; --wine:#E68CA8; --wine-soft:#371C26;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1416; --surface:#151F23; --ink:#E3EAEC; --muted:#98A7AE; --line:#29363B;
+  --sea:#5DBEC0; --sea-soft:#13302F; --wine:#E68CA8; --wine-soft:#371C26;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+img{max-width:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:680px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--sea);text-underline-offset:2px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--sea);outline-offset:2px;border-radius:2px}
+h1,h2,h3,h4{text-wrap:balance}
+p{margin:0 0 10px}
+b{font-weight:600}
+
+.hero{padding-block:36px 18px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 16px}
+.geo{font-family:var(--f-geo);font-weight:500;color:var(--wine);font-size:17px;letter-spacing:.03em;margin:0 0 2px}
+h1{font-family:var(--f-display);font-weight:400;font-size:clamp(42px,12vw,64px);line-height:1;letter-spacing:-.01em;margin:0 0 14px}
+.lead{font-size:17px;color:var(--muted);max-width:60ch;margin:0}
+
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar-in{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;padding-block:9px}
+.seg{display:flex;align-items:center;gap:4px;min-width:0}
+.seg-l{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.seg input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.seg label{font-size:14px;line-height:1.2;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap;font-variant-numeric:tabular-nums}
+.seg input:checked + label{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.seg input:focus-visible + label{outline:2px solid var(--sea);outline-offset:2px}
+
+section{padding-block:30px 6px}
+h2{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,8vw,38px);line-height:1.08;margin:0 0 14px}
+h3{font-size:18px;font-weight:600;line-height:1.3;margin:24px 0 8px}
+h4{font-size:16px;font-weight:600;margin:0 0 6px}
+.note{font-size:14px;color:var(--muted)}
+.list{margin:0 0 8px;padding-left:20px;display:grid;gap:6px}
+
+.short{list-style:none;margin:0;padding:4px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+.short li{padding-block:11px;border-bottom:1px solid var(--line)}
+.short li:last-child{border-bottom:0}
+
+.day{padding-block:16px 6px;border-top:1px solid var(--line)}
+.day-h{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 12px;margin-bottom:10px}
+.date{font-family:var(--f-mono);font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--wine);white-space:nowrap;min-width:76px}
+.day-h h3{margin:0;font-size:19px}
+.vtag{font-family:var(--f-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--sea);border:1px solid var(--sea);border-radius:999px;padding:1px 8px;white-space:nowrap}
+.tt{list-style:none;margin:0 0 10px;padding:0;display:grid;gap:7px}
+.tt li{display:grid;grid-template-columns:58px minmax(0,1fr);gap:10px}
+.tt time{font-family:var(--f-mono);font-size:13px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.cost{font-size:14px}
+.cost span{font-family:var(--f-mono);color:var(--wine);white-space:nowrap}
+
+.tbl{overflow-x:auto;margin:6px 0 10px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th:first-child,td:first-child{padding-left:0}
+th:last-child,td:last-child{padding-right:0}
+thead th{font-family:var(--f-mono);font-size:11px;font-weight:400;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+tbody th{font-weight:500}
+.num{text-align:right;white-space:nowrap;font-family:var(--f-mono);font-size:14px}
+tr.on th,tr.on td{background:var(--sea-soft)}
+tr.on th:first-child{box-shadow:-8px 0 0 var(--sea-soft)}
+tfoot th,tfoot td{font-weight:600;border-bottom:0}
+tfoot .num{color:var(--wine)}
+.sub{display:block;font-size:13px;color:var(--muted);font-weight:400}
+
+.opts{display:grid;gap:12px;margin-top:16px}
+.opt{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--surface)}
+.opt.on{border-color:var(--sea);box-shadow:inset 0 0 0 1px var(--sea)}
+.opt p{font-size:15px}
+.pm{list-style:none;margin:8px 0 10px;padding:0;display:grid;gap:5px;font-size:15px}
+.pm li{position:relative;padding-left:20px}
+.pm li::before{position:absolute;left:0;top:0;font-family:var(--f-mono);font-weight:600}
+.pm .plus::before{content:"+";color:var(--sea)}
+.pm .minus::before{content:"-";color:var(--wine)}
+.ask{font-size:14px;color:var(--muted);margin:0}
+.sel{font-family:var(--f-mono);color:var(--ink);user-select:all;white-space:nowrap}
+.verdict{background:var(--sea-soft);border-radius:12px;padding:12px 16px;margin-top:14px}
+.verdict p:last-child{margin:0}
+
+.route{list-style:none;margin:10px 0 12px 6px;padding:0 0 0 20px;border-left:2px solid var(--sea)}
+.route .stop{position:relative;padding:3px 0}
+.route .stop::before{content:"";position:absolute;left:-28px;top:9px;width:10px;height:10px;border-radius:50%;background:var(--bg);border:2px solid var(--sea)}
+.route .stop i{font-style:normal;font-family:var(--f-mono);font-size:12px;color:var(--wine);margin-left:8px;white-space:nowrap}
+.route .stop span{display:block;font-size:14px;color:var(--muted)}
+.route .leg{padding:2px 0 10px;font-size:13px;color:var(--muted)}
+
+.stay{display:grid;gap:4px}
+.stay article{border-top:1px solid var(--line);padding-top:12px}
+.price{font-family:var(--f-mono);font-size:14px;color:var(--wine);margin-bottom:6px}
+
+.callout{background:var(--wine-soft);border-radius:12px;padding:12px 16px}
+.exc{border-top:1px solid var(--line);padding-block:14px 4px}
+.exc-k{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--wine);margin:0 0 4px}
+.exc h3{margin:0 0 4px;font-size:18px}
+.exc h3 a{color:var(--ink);text-decoration-color:var(--sea);text-decoration-thickness:1px}
+.meta{font-size:13px;color:var(--muted)}
+.alt{font-size:14px;color:var(--muted)}
+
+.todo{margin:0;padding-left:22px;display:grid;gap:9px}
+.foot{margin-top:28px;padding-block:20px 44px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.foot summary{cursor:pointer;color:var(--sea);margin-bottom:8px}
+.foot ul{padding-left:18px;display:grid;gap:4px;margin:0}
+</style>
+</head>
+<body>
+
+<header class="wrap hero">
+  <p class="eyebrow">16-22 июня 2027 · 6 ночей · компания 6-10 человек</p>
+  <p class="geo" lang="ka">ბათუმი · სვანეთი</p>
+  <h1>Батуми и Сванетия</h1>
+  <p class="lead">План по дням, Сванетия тремя способами, жилье в Местии на всю компанию и цены. Кнопки ниже пересчитывают суммы под число людей и способ поездки в горы.</p>
+</header>
+
+<div class="bar">
+  <div class="wrap bar-in">
+    <div class="seg" role="radiogroup" aria-label="Сколько нас">
+      <span class="seg-l" aria-hidden="true">Нас</span>
+      <input type="radio" name="n" id="n6" value="6" checked><label for="n6">6</label>
+      <input type="radio" name="n" id="n8" value="8"><label for="n8">8</label>
+      <input type="radio" name="n" id="n10" value="10"><label for="n10">10</label>
+    </div>
+    <div class="seg" role="radiogroup" aria-label="Как едем в Сванетию">
+      <span class="seg-l" aria-hidden="true">Горы</span>
+      <input type="radio" name="v" id="vtour" value="tour" checked><label for="vtour">Тур</label>
+      <input type="radio" name="v" id="vdriver" value="driver"><label for="vdriver">Водитель</label>
+      <input type="radio" name="v" id="vcar" value="car"><label for="vcar">Машина</label>
+    </div>
+  </div>
+</div>
+
+<main>
+<section class="wrap" id="short">
+  <h2>Коротко</h2>
+  <ul class="short">
+    <li><b>Сванетия - чт-пт, 17-18 июня.</b> Оператор из вашей ссылки осенью 2026 возил группы как раз по четвергам и пятницам. Это будни, а если в горах обещают дождь, остаются запасные дни.</li>
+    <li><b>Дальше:</b> суббота - отдых, воскресенье - каньоны и пещера Прометея (в понедельник пещера закрыта), понедельник - Горная Аджария, вторник - вылет.</li>
+    <li><b>Сванетия на <span data-n-text>6</span> человек, с каждого:</b> тур <span data-sv="tour"></span>, с водителем <span data-sv="driver"></span>, своя машина <span data-sv="car"></span>.</li>
+    <li><b>Что выбрать.</b> Есть 2-3 уверенных водителя - берите машину: дешевле и свободнее. Никто не хочет за руль (за два дня 10-11 часов серпантина) - тур, а на 8-10 человек просите у оператора отдельный выезд для вашей компании.</li>
+    <li><b>Две ссылки на Tripster ведут на Баку,</b> а не на Батуми. Похожие форматы в Батуми - в разделе <a href="#exc">Экскурсии</a>.</li>
+  </ul>
+</section>
+
+<section class="wrap" id="days">
+  <h2>План по дням</h2>
+  <p class="note">Даты от прилета 16.06. В 2026 году Белавиа летала в Батуми ночью: из Минска около 23:00, посадка в 3-4 утра, обратно из Батуми в 5:30. Расписание на лето 2027 появится весной. Если посадка будет ночью на 17.06, сдвиньте план на день, но каньоны оставьте на воскресенье.</p>
+
+  <article class="day">
+    <div class="day-h"><span class="date">ср 16.06</span><h3>Прилет и первый вечер</h3></div>
+    <ol class="tt">
+      <li><time>днем</time><span>Заселение, море. Если рейс ночной, сначала отоспаться.</span></li>
+      <li><time>18:00</time><span>Прогулка по старому городу с гидом, 2,5 часа: площадь Пьяцца, площадь Европы с Медеей, собор, история от античности до небоскребов.</span></li>
+      <li><time>20:30</time><span>Бульвар до "Али и Нино" и Алфавитной башни: после заката они красивее всего. Фонтаны у Ардаганского озера.</span></li>
+      <li><time>ужин</time><span>Аджарский хачапури - лодочка с яйцом и маслом.</span></li>
+    </ol>
+    <p class="cost">С человека: прогулка <span data-pp="walk"></span></p>
+  </article>
+
+  <article class="day">
+    <div class="day-h"><span class="date">чт 17.06</span><h3>Сванетия: дорога в Местию</h3><span class="vtag" data-vname-s>тур</span></div>
+    <ol class="tt" data-v="tour">
+      <li><time>06:30</time><span>Выезд группы из Батуми.</span></li>
+      <li><time>утро</time><span>Ингурское водохранилище, водопад "Свадебное платье" на серпантине.</span></li>
+      <li><time>обед</time><span>Кубдари в сванской деревне - входит в тур.</span></li>
+      <li><time>день</time><span>Заселение в гостиницу в Местии. Качели в селе Хешкили, канатка Хацвали на 2&nbsp;347&nbsp;м с видом на Ушбу.</span></li>
+      <li><time>вечер</time><span>Музей альпиниста Михаила Хергиани. Ужин в тур не входит.</span></li>
+    </ol>
+    <ol class="tt" data-v="driver car" hidden>
+      <li><time>07:00</time><span>Выезд из Батуми.</span></li>
+      <li><time>09:15</time><span>Зугдиди: парк дворца Дадиани, кофе. Музей во дворце открывается в 10:00.</span></li>
+      <li><time>11:00</time><span>Ингурская ГЭС: смотровая на арочную плотину высотой 271&nbsp;м.</span></li>
+      <li><time>11:30</time><span>Ущелье Ингури: бирюзовое водохранилище, водопады у дороги, обед с кубдари в придорожном кафе.</span></li>
+      <li><time>14:30</time><span>Местиа, заселение.</span></li>
+      <li><time>15:30</time><span>Канатка Хацвали до хребта Зурулди (2&nbsp;347&nbsp;м), вид на Ушбу. Качели в Хешкили.</span></li>
+      <li><time>18:00</time><span>Башни квартала Ланчвали. В доме-музее Маргиани можно подняться в настоящую сванскую башню.</span></li>
+      <li><time>20:00</time><span>Ужин: кубдари, чвиштари, вино. Сванскую соль купить домой.</span></li>
+    </ol>
+    <p class="note" data-v="car" hidden>За рулем около 5 часов. Вечером заправиться в Местии: в Ушгули заправок нет.</p>
+    <p class="cost">Сколько стоит - в разделе <a href="#svaneti">Сванетия</a>.</p>
+  </article>
+
+  <article class="day">
+    <div class="day-h"><span class="date">пт 18.06</span><h3>Ушгули и обратно</h3><span class="vtag" data-vname-s>тур</span></div>
+    <ol class="tt" data-v="tour">
+      <li><time>утро</time><span>Завтрак в гостинице, прогулка по Местии.</span></li>
+      <li><time>день</time><span>Дорога в Ушгули через высокогорье: церковь Ламария, Башня любви, сванские башни.</span></li>
+      <li><time>вечер</time><span>Обратно в Батуми, приезд поздно вечером (время уточнить у оператора).</span></li>
+    </ol>
+    <ol class="tt" data-v="driver car" hidden>
+      <li><time>08:15</time><span>Выезд в Ушгули: 47&nbsp;км, 1-1,5 часа по асфальту.</span></li>
+      <li><time>09:30</time><span>Ушгули, около 2&nbsp;100&nbsp;м: башни Чажаши, церковь Ламария с видом на Шхару, высшую точку Грузии, Башня любви.</span></li>
+      <li><time>12:30</time><span>Обед в Ушгули.</span></li>
+      <li><time>13:30</time><span>Обратно через Местию и ущелье Ингури.</span></li>
+      <li><time>21:00</time><span>Батуми.</span></li>
+    </ol>
+    <p class="note" data-v="car" hidden>Второй день - больше 6 часов за рулем. Водителей в каждой машине нужно минимум двое.</p>
+  </article>
+
+  <article class="day">
+    <div class="day-h"><span class="date">сб 19.06</span><h3>Отдых после гор</h3></div>
+    <ol class="tt">
+      <li><time>утро</time><span>Отоспаться, море.</span></li>
+      <li><time>12:00</time><span>Ботанический сад на Зеленом мысу: 20 лари, нужно полдня. Внизу тихий пляж.</span></li>
+      <li><time>20:00</time><span>Канатка "Арго" на закате: 39 лари туда-обратно, работает до полуночи. Ужин.</span></li>
+    </ol>
+    <p class="cost">С человека: <span>около 20 €</span> за билеты</p>
+  </article>
+
+  <article class="day">
+    <div class="day-h"><span class="date">вс 20.06</span><h3>Каньоны и пещера Прометея</h3></div>
+    <ol class="tt">
+      <li><time>07:00</time><span>Выезд на 12 часов, своей компанией с гидом.</span></li>
+      <li><time>день</time><span>Каньон Мартвили с лодкой, тропа над каньоном Окаце, пещера Прометея с подземной рекой, монастырь, домашняя чурчхела.</span></li>
+      <li><time>19:00</time><span>Батуми.</span></li>
+    </ol>
+    <p class="note">Не на понедельник: в понедельник пещера Прометея закрыта. В выходные у лодок в Мартвили очереди, поэтому выезд ранний.</p>
+    <p class="cost">С человека: экскурсия <span data-pp="canyons"></span> + входные и лодки <span>около 40-55 €</span></p>
+  </article>
+
+  <article class="day">
+    <div class="day-h"><span class="date">пн 21.06</span><h3>Горная Аджария</h3></div>
+    <ol class="tt">
+      <li><time>10:00</time><span>5,5 часа своей компанией: крепость Гонио, арочный мост царицы Тамары XII века, водопад Махунцети, дегустация вина.</span></li>
+      <li><time>16:00</time><span>Пляж в Гонио или Квариати: там самая чистая вода на побережье.</span></li>
+      <li><time>вечер</time><span>Прощальный ужин. Рыбный рынок: покупаете рыбу и отдаете пожарить в кафе рядом.</span></li>
+    </ol>
+    <p class="cost">С человека: экскурсия <span data-pp="adjara"></span></p>
+  </article>
+
+  <article class="day">
+    <div class="day-h"><span class="date">вт 22.06</span><h3>Вылет</h3></div>
+    <ol class="tt">
+      <li><time>утро</time><span>Сувениры: чача, вино, чурчхела, сванская соль, аджика. Такси в Батуми удобно вызывать через Bolt.</span></li>
+    </ol>
+    <p class="note">Если обратный рейс ранним утром, как в 2026 году, последний полный день - понедельник.</p>
+  </article>
+</section>
+
+<section class="wrap" id="svaneti">
+  <p class="geo" lang="ka">სვანეთი</p>
+  <h2>Сванетия: тур, водитель или своя машина</h2>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Способ</th><th class="num">С человека</th><th class="num">На <span data-n-text>6</span> чел.</th></tr></thead>
+      <tbody>
+        <tr data-row="tour"><th>Тур</th><td class="num" data-sv="tour"></td><td class="num" data-svg="tour"></td></tr>
+        <tr data-row="driver"><th>С водителем</th><td class="num" data-sv="driver"></td><td class="num" data-svg="driver"></td></tr>
+        <tr data-row="car"><th>Своя машина</th><td class="num" data-sv="car"></td><td class="num" data-svg="car"></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Два дня целиком: дорога, ночлег, еда, билеты. Курс 1 € = 2,90 лари, 1 $ = 2,60 лари.</p>
+
+  <h3>Из чего складывается: <span data-vname>тур</span></h3>
+  <div class="tbl">
+    <table id="breakdown">
+      <thead><tr><th>Статья</th><th class="num">С человека</th></tr></thead>
+      <tbody></tbody>
+      <tfoot></tfoot>
+    </table>
+  </div>
+
+  <div class="opts">
+    <article class="opt on" data-opt="tour">
+      <h4>Тур Batumi Creative</h4>
+      <p>350 лари с человека, "все включено": минивэн или микроавтобус, гид, гостиница в Местии с завтраком, обед с кубдари, вода, входные билеты. Выезд в 6:30, группа до 19 человек.</p>
+      <ul class="pm">
+        <li class="plus">Никто не за рулем, гид рассказывает по дороге.</li>
+        <li class="plus">Осенью 2026 выезды были по четвергам-пятницам: 17-18 июня как раз чт-пт.</li>
+        <li class="minus">Даты и программу задает оператор, в группе могут быть чужие люди.</li>
+        <li class="minus">Ужин и обед второго дня не входят, про канатку надо уточнить.</li>
+      </ul>
+      <p class="ask">Спросить: даты на июнь 2027, отдельный выезд для вашей компании, действует ли скидка 10% для компаний от 4 человек, что именно входит. WhatsApp и Telegram: <span class="sel">+995 557 306 055</span></p>
+    </article>
+    <article class="opt" data-opt="driver">
+      <h4>Минивэн с водителем</h4>
+      <p>Свой минивэн на 7-8 человек с водителем на два дня, на 10 человек - две машины или микроавтобус. Ориентир 500-700 $ за машину: столько стоили похожие предложения, точную цену называют по запросу.</p>
+      <ul class="pm">
+        <li class="plus">Ваши даты, ваш темп и остановки, за ужином можно пить вино.</li>
+        <li class="plus">Жилье выбираете сами, можно снять дом на всех.</li>
+        <li class="minus">Самый дорогой вариант, особенно на 10 человек.</li>
+        <li class="minus">Водитель и машина - лотерея, смотреть отзывы.</li>
+      </ul>
+      <p class="ask">Где искать: отдельный выезд у Batumi Creative, маршрут с остановками на GoTrip, гиды на Tripster. Уточнить, кто платит за ночлег водителя. На 10 человек спросить микроавтобус: может выйти дешевле двух минивэнов.</p>
+    </article>
+    <article class="opt" data-opt="car">
+      <h4>Своя машина</h4>
+      <p>Аренда на двое суток и бензин, жилье и еду берете сами. Дорогу Местиа - Ушгули заасфальтировали в 2024 году, джип не нужен.</p>
+      <ul class="pm">
+        <li class="plus">Дешевле всего и полная свобода: дворец Дадиани, остановки где хочется, Ушгули без спешки.</li>
+        <li class="plus">Можно жить всей компанией в одном доме.</li>
+        <li class="minus">10-11 часов серпантина за два дня, водители не пьют.</li>
+        <li class="minus">На 10 человек нужны две машины: по правам категории B больше 9 мест не взять.</li>
+      </ul>
+    </article>
+  </div>
+  <div class="verdict">
+    <p><b>Наш выбор.</b> Машина, если за рулем готовы сидеть хотя бы двое в каждой машине. Если нет - тур Batumi Creative на 17-18 июня, а для 8-10 человек отдельный выезд у того же оператора.</p>
+  </div>
+  <p class="note" style="margin-top:12px">Для сравнения: сборный тур на Sputnik8 - 190 $ с человека; у гида Малхаза на Tripster - 180 € с человека, группа до 12, ночевка в Ушгули (сейчас тур на паузе).</p>
+</section>
+
+<section class="wrap" id="car">
+  <h2>Сванетия на машине</h2>
+  <h3>Какую машину брать</h3>
+  <p data-n="6">Один минивэн на 7 мест (Toyota Sienna и похожие), летом около 60-100 $ в сутки. Хочется просторнее - два кроссовера по 40-60 $ в сутки, это примерно плюс 20 € с человека.</p>
+  <p data-n="8" hidden>Минивэн на 8-9 мест (Mercedes Vito, Hyundai Staria или H-1), около 80-120 € в сутки. Два кроссовера по 40-60 $ выйдут примерно на 10 € с человека дороже.</p>
+  <p data-n="10" hidden>Две машины: минивэн на 7 мест и кроссовер, вместе около 100-160 $ в сутки. Одну машину на 10 человек по обычным правам не взять.</p>
+
+  <h3>Аренда</h3>
+  <ul class="list">
+    <li>Удобнее всего через Localrent, это площадка местных прокатов. Предоплата 15-20%, остальное при получении. У большинства машин залога нет, у остальных 50-200 $.</li>
+    <li>Гражданам СНГ хватает национальных прав, международные не нужны. Водителю 23-65 лет, стаж от 3 лет (у разных прокатов по-разному).</li>
+    <li>Для Ушгули берите машину с разрешенным выездом "Mestia - Ushguli - Lentekhi", он действует с 1 мая по 30 сентября. Перевал Годердзи по правилам Localrent запрещен.</li>
+    <li>Базовая страховка входит в цену, лучше взять полную, без франшизы.</li>
+    <li>Бензин летом 2026: 95-й около 3,7-3,8 лари за литр, дизель около 4-4,2 лари. Круг с Ушгули - около 650 км.</li>
+  </ul>
+
+  <h3>Дорога и что по пути</h3>
+  <ol class="route">
+    <li class="stop"><b>Батуми</b></li>
+    <li class="leg">около 2 часов по побережью через Поти</li>
+    <li class="stop"><b>Зугдиди</b><span>Дворец Дадиани с парком. Музей вт-вс 10:00-17:30, парк открыт для всех.</span></li>
+    <li class="leg">около получаса</li>
+    <li class="stop"><b>Ингурская ГЭС</b><span>Арочная плотина 271 м и бирюзовое водохранилище.</span></li>
+    <li class="leg">2,5-3 часа по ущелью Ингури: смотровые, водопады у дороги, кубдари в придорожных кафе</li>
+    <li class="stop"><b>Местиа</b><i>1&nbsp;500&nbsp;м</i></li>
+    <li class="leg">47 км, 1-1,5 часа, асфальт. Заправиться в Местии</li>
+    <li class="stop"><b>Ушгули</b><i>~2&nbsp;100&nbsp;м</i></li>
+  </ol>
+  <p class="note">От Батуми до Местии около 260 км и 5 часов чистой езды. Ехать засветло: серпантин, туннели, на дороге бывают коровы и камни.</p>
+</section>
+
+<section class="wrap" id="see">
+  <p class="geo" lang="ka">მესტია · უშგული</p>
+  <h2>Что смотреть в Местии и Ушгули</h2>
+  <h3>Местиа, 1&nbsp;500&nbsp;м</h3>
+  <ul class="list">
+    <li><b>Канатка Хацвали</b> до хребта Зурулди, 2&nbsp;347&nbsp;м: вид на двуглавую Ушбу. Ходит в хорошую погоду, после весеннего перерыва обычно запускается к июню, так что накануне проверить. По данным прошлых лет 20-30 лари.</li>
+    <li><b>Качели в Хешкили</b> над долиной.</li>
+    <li><b>Сванские башни</b> кварталов Ланчвали и Лагами. В доме-музее Маргиани можно подняться в башню изнутри.</li>
+    <li><b>Музей истории и этнографии Сванетии:</b> иконы, рукописи, церковное серебро.</li>
+    <li><b>Дом-музей Михаила Хергиани</b>, самого известного сванского альпиниста.</li>
+    <li><b>Ужин:</b> кубдари (пирог с рубленым мясом), чвиштари (кукурузные лепешки с сыром). Домой - сванскую соль.</li>
+  </ul>
+  <h3>Ушгули, около 2&nbsp;100&nbsp;м</h3>
+  <ul class="list">
+    <li><b>Чажаши</b> - квартал старых сванских башен. Верхняя Сванетия в списке ЮНЕСКО.</li>
+    <li><b>Церковь Ламария</b> на холме, за ней Шхара - высшая точка Грузии.</li>
+    <li><b>Башня любви</b> с легендой, вход 2 лари.</li>
+    <li>Холодно даже в июне: кофта, ветровка, удобная обувь.</li>
+  </ul>
+  <h3>Если будет вторая ночь</h3>
+  <ul class="list">
+    <li>Озера Корулди на джипе из Местии: 3-4 часа, от 45 $ с человека.</li>
+    <li>Ледник Чалаади: около двух часов пешком в одну сторону.</li>
+    <li>Ночь в Ушгули и рассвет над Шхарой.</li>
+  </ul>
+</section>
+
+<section class="wrap" id="stay">
+  <h2>Жилье в Местии на всю компанию</h2>
+  <p>Поселиться вместе можно. В Местии почти 300 вариантов на Booking, большинство - семейные гостевые дома на несколько номеров. Цены ниже по Booking на октябрь 2026, летом на 15-40% дороже.</p>
+  <div class="stay">
+    <article>
+      <h4>Гостевой дом целиком</h4>
+      <p class="price">≈ 70-100 лари с человека с завтраком</p>
+      <p>Номер на двоих в октябре стоил 40-100 лари, завтрак +25 лари с человека, ужин хозяева готовят по договоренности. Пишете хозяину и берете все номера сразу.</p>
+    </article>
+    <article>
+      <h4>Дом или коттедж</h4>
+      <p class="price">≈ 30-50 лари с человека, без завтрака</p>
+      <p>Cottage Location Lanchvali: дом на 4 спальни, 200 лари за весь дом в октябре, удобен для 6-8 человек. На Airbnb: "Cozy cottage in Svaneti mountains" - 5 комнат со своими санузлами, до 13 гостей, 5 минут до центра; Mestia Retreat - 6 спален, до 12 гостей.</p>
+    </article>
+    <article>
+      <h4>Гостиница</h4>
+      <p class="price">≈ 90-180 лари с человека с завтраком</p>
+      <p>Mestia Inn - четырехместные номера с завтраком за 320-352 лари; Hotel Lamish - двухместный с завтраком за 180-252 лари.</p>
+    </article>
+  </div>
+  <ul class="list">
+    <li>Бронировать с бесплатной отменой. На июнь хватает и пары недель, но целый дом на 8-10 человек лучше искать за 2-3 месяца.</li>
+    <li>Коттеджи на склонах в 3-4 км от центра - только с машиной.</li>
+    <li>В туре Batumi Creative ночлег уже входит.</li>
+  </ul>
+</section>
+
+<section class="wrap" id="batumi">
+  <p class="geo" lang="ka">ბათუმი · აჭარა</p>
+  <h2>Батуми: что посмотреть</h2>
+  <h3>Набережная, лучше вечером</h3>
+  <ul class="list">
+    <li><b>Приморский бульвар:</b> 7 км пальм, фонтанов и кафе, удобно на велосипеде.</li>
+    <li><b>"Али и Нино"</b> - движущиеся фигуры, смотреть после заката.</li>
+    <li><b>Алфавитная башня</b> высотой 130 м, лифт наверх 20 лари. Рядом колесо обозрения, 10 лари.</li>
+    <li><b>Фонтаны у Ардаганского озера</b> с вечерним световым шоу.</li>
+  </ul>
+  <h3>Старый город</h3>
+  <ul class="list">
+    <li><b>Площадь Пьяцца:</b> мозаика, витражи, часовая башня, кафе.</li>
+    <li><b>Площадь Европы</b> со статуей Медеи и золотым руном.</li>
+    <li><b>Собор Рождества Богородицы</b> - бесплатно, плечи и колени закрыть.</li>
+    <li><b>Рыбный рынок:</b> покупаете рыбу и отдаете пожарить в соседнее кафе.</li>
+  </ul>
+  <h3>Над городом и рядом</h3>
+  <ul class="list">
+    <li><b>Канатка "Арго":</b> 39 лари туда-обратно, 11:00-00:00, лучше на закате.</li>
+    <li><b>Ботанический сад</b> на Зеленом мысу: 20 лари, 9:00-19:30, полдня.</li>
+    <li><b>Крепость Гонио</b>, римский Апсарос: 8-10 лари, 12 км на юг. Рядом пляжи Гонио, Квариати и Сарпи с самой чистой водой.</li>
+    <li><b>Водопад Махунцети</b> высотой 30 м и арочный мост царицы Тамары - бесплатно, по дороге в горы.</li>
+    <li><b>Нацпарк Мтирала:</b> лес, тропы, водопады, вход бесплатный.</li>
+  </ul>
+</section>
+
+<section class="wrap" id="exc">
+  <h2>Экскурсии на компанию</h2>
+  <p class="callout">Две ссылки на Tripster из сообщения ведут на экскурсии в Баку: прогулка по старому городу и поездка к горе Бешбармаг, "земляной радуге" и розовому озеру с дегустацией икры. Если Баку тоже в планах, скажите. Ниже похожие форматы в Батуми. Цены Tripster на октябрь 2026, сумма пересчитана на вашу компанию.</p>
+
+  <article class="exc">
+    <p class="exc-k">Вместо прогулки по Баку</p>
+    <h3><a href="https://experience.tripster.ru/experience/16759/">Из прошлого в настоящее Батуми</a></h3>
+    <p class="meta">пешком · 2,5 ч · только ваша компания, до 10 · 4,97 (38 отзывов)</p>
+    <p>От античных легенд до небоскребов, со старыми фотографиями.</p>
+    <p class="cost"><span data-group="walk"></span> на компанию, <span data-pp="walk"></span> с человека</p>
+    <p class="alt">Дешевле в общей группе: <a href="https://experience.tripster.ru/experience/98702/">"Пешком по старому Батуми"</a>, 21 € с человека, 4,97 (224).</p>
+  </article>
+
+  <article class="exc">
+    <p class="exc-k">Вместо Бешбармага: природа и дегустация</p>
+    <h3><a href="https://experience.tripster.ru/experience/36144/">Невероятная Горная Аджария</a></h3>
+    <p class="meta">на машине · 5,5 ч · только ваша компания, до 10 · 4,97 (244)</p>
+    <p>Крепость Гонио, мост царицы Тамары, водопады, дегустация местного вина. Входит ли дегустация в цену, уточнить до оплаты.</p>
+    <p class="cost"><span data-group="adjara"></span> на компанию, <span data-pp="adjara"></span> с человека</p>
+    <p class="alt">Бюджетно в большой группе: <a href="https://experience.tripster.ru/experience/15566/">"Батуми и Горная Аджария за 1 день"</a>, 25 € с человека, 4,95 (1235).</p>
+  </article>
+
+  <article class="exc">
+    <p class="exc-k">Самый длинный день</p>
+    <div data-n="6 8">
+      <h3><a href="https://experience.tripster.ru/experience/41324/">Из Батуми - в край каньонов, пещер и монастырей</a></h3>
+      <p class="meta">на машине · 12 ч · только ваша компания, до 8 · 5,0 (19)</p>
+      <p>Мартвили, Окаце, пещера Прометея, монастырь в Мегрелии, семейное производство чурчхелы.</p>
+    </div>
+    <div data-n="10" hidden>
+      <h3><a href="https://experience.tripster.ru/experience/65142/">Живая энергия Грузии: каньоны Мартвили, Окаце и пещера Прометея</a></h3>
+      <p class="meta">мини-группа до 10, вы займете ее целиком · 12 ч · 5,0 (26)</p>
+      <p>Индивидуальные поездки по каньонам берут до 8 человек, поэтому на 10 - этот вариант.</p>
+    </div>
+    <p class="cost"><span data-group="canyons"></span> на компанию, <span data-pp="canyons"></span> с человека</p>
+    <p class="note">Плюс входные (с 1 апреля 2026): Мартвили 40 лари и лодка 20, Окаце 30, Прометей 40 и лодка 30. Всего 110-160 лари с человека.</p>
+    <p class="alt" data-n="6 8">Без Окаце и дешевле: <a href="https://experience.tripster.ru/experience/13931/">"Мартвили и пещера Прометея"</a>, 44 € с человека, 4,87 (322).</p>
+  </article>
+
+  <article class="exc">
+    <p class="exc-k">Вместо каньонов</p>
+    <h3><a href="https://experience.tripster.ru/experience/72098/">Прикосновение к облакам - в Гомис Мта</a></h3>
+    <p class="meta">мини-группа до 10 · 11 ч · 4,88 (42)</p>
+    <p>Горы Гурии, где на закате под ногами море облаков. Спокойнее каньонов и без очередей.</p>
+    <p class="cost"><span data-group="gomis"></span> на компанию, <span data-pp="gomis"></span> с человека</p>
+  </article>
+
+  <article class="exc">
+    <p class="exc-k">На свободный вечер</p>
+    <h3><a href="https://experience.tripster.ru/experience/46493/">Увлекательное путешествие в мир виноделия</a></h3>
+    <p class="meta">группа · 4,5 ч · 4,91 (141)</p>
+    <p class="cost"><span data-group="wine"></span> на компанию, <span data-pp="wine"></span> с человека</p>
+    <p class="alt">Или кухня в горной деревне: <a href="https://experience.tripster.ru/experience/83281/">"Кухня деревни Чаисубани"</a>, только ваша компания до 8, от 46 € за группу, 5,0 (111).</p>
+  </article>
+</section>
+
+<section class="wrap" id="budget">
+  <h2>Бюджет на человека</h2>
+  <p>По плану выше: <span data-n-text>6</span> человек, в Сванетию - <span data-vname-l>тур</span>.</p>
+  <div class="tbl">
+    <table id="bud">
+      <thead><tr><th>Что</th><th class="num">С человека</th></tr></thead>
+      <tbody></tbody>
+      <tfoot></tfoot>
+    </table>
+  </div>
+  <p class="note">Без перелета, жилья и еды в Батуми, сувениров.</p>
+</section>
+
+<section class="wrap" id="todo">
+  <h2>Что сделать заранее</h2>
+  <ol class="todo">
+    <li><b>Билеты</b> - когда Белавиа выложит летнее расписание, весной. От времени прилета зависит первый день, от дня обратного рейса - число ночей.</li>
+    <li><b>Сванетия туром</b> - в марте-апреле написать оператору: даты на июнь, отдельный выезд, скидка, что входит.</li>
+    <li><b>Сванетия на машине</b> - за 2-3 месяца: машина на Localrent с выездом в Ушгули и жилье в Местии с бесплатной отменой.</li>
+    <li><b>Экскурсии Tripster</b> - за 2-4 недели. Предоплата 26-30% на сайте, бесплатная отмена за 48 часов.</li>
+    <li><b>Медстраховка</b> - с 1 января 2026 обязательна для въезда в Грузию: покрытие от 30&nbsp;000&nbsp;$, полис на английском или грузинском, без нее штраф 300 лари. Виза белорусам не нужна.</li>
+    <li><b>Погода</b> - за 3-5 дней до Сванетии смотреть прогноз по Местии. На машине или с водителем Сванетию можно поменять местами с выходными.</li>
+  </ol>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <p>Цены собраны 28-29 октября 2026 по сайтам ниже, курс на 28.10.2026: 1 € = 2,90 лари, 1 $ = 2,60 лари. Перед поездкой сверить.</p>
+  <details>
+    <summary>Источники</summary>
+    <ul>
+      <li><a href="https://batumi-creative.ge/svanetiya">Тур в Сванетию, Batumi Creative</a></li>
+      <li><a href="https://thegeorgianguide.com/destinations/where-to-stay-mestia/">Жилье в Местии: цены Booking, октябрь 2026 и июль 2027</a></li>
+      <li><a href="https://wander-lush.org/ushguli-to-kutaisi-zagari-pass/">Дорога Местиа - Ушгули и правила аренды</a></li>
+      <li><a href="https://localrent.com/ru/georgia/batumi/">Localrent в Батуми: условия, права, залог</a></li>
+      <li><a href="https://www.kayak.com/Batumi-7-Passenger-Van-Rentals.41216.7-lcv.ksp">Минивэны и машины на 7 мест в Батуми</a></li>
+      <li><a href="https://www.sputnik8.com/ru/batumi/activities/35867-gornaya-svanetiya">Минивэн с водителем в Сванетию на 2 дня (архив)</a></li>
+      <li><a href="https://madloba.info/faq/cars-and-driving/fuel-prices-in-georgia/">Бензин в Грузии, лето 2026</a></li>
+      <li><a href="https://samokatus.ru/travel-telegram-feed/fa_huu/5170">Входные в каньоны и пещеру с 1 апреля 2026</a></li>
+      <li><a href="https://www.advantour.com/rus/georgia/kutaisi/prometheus-cave.htm">Пещера Прометея: выходной в понедельник</a></li>
+      <li><a href="https://www.onetwotrip.com/ru/blog/guides/europe/bolshoj-putevoditel-po-batumi-plyazhi-dostoprimechatelnosti-i-oteli-2026-goda/">Батуми: цены и часы, июль 2026</a></li>
+      <li><a href="https://travel-batumi.com/kanatnaya-doroga-argo">Канатка "Арго", август 2026</a></li>
+      <li><a href="https://madloba.info/en/region-adjara/drevnie-ruiny-kreposti-i-zamki/krepost-gonio/">Крепость Гонио</a></li>
+      <li><a href="https://experience.tripster.ru/experience/Batumi/">Экскурсии Tripster в Батуми</a></li>
+      <li><a href="https://polis812.ru/blog/obyazatelnaya-strahovka-v-gruziyu-dlya-grazhdan-belarusi-v-2026-godu/">Обязательная страховка для въезда в Грузию</a></li>
+      <li><a href="https://www.tio.by/info/novosti/zimnyaya-smena-marshrutov-kak-novoe-raspisanie-belavia-povliyaet-na-vashi-plany-s-25-oktyabrya/">Расписание Белавиа на Батуми</a></li>
+    </ul>
+  </details>
+</footer>
+
+<script>
+(function(){
+  var GEL = 2.90, USD = 1.114; // лари и доллары за 1 евро, 28.10.2026
+  function g(x){ return x / GEL; }
+  function u(x){ return x / USD; }
+  var VNAME = { tour: "тур Batumi Creative", driver: "минивэн с водителем", car: "своя машина" };
+  var VSHORT = { tour: "тур", driver: "с водителем", car: "своя машина" };
+  var state = { n: 6, v: "tour" };
+  try {
+    var saved = JSON.parse(localStorage.getItem("batumi-2027") || "{}");
+    if ([6, 8, 10].indexOf(saved.n) > -1) state.n = saved.n;
+    if (VNAME[saved.v]) state.v = saved.v;
+  } catch (e) {}
+
+  function svaneti(v, n){
+    var rows = [];
+    function add(label, lo, hi, note){ rows.push({ label: label, lo: lo, hi: hi, note: note || "" }); }
+    if (v === "tour") {
+      add("Тур: транспорт, гид, гостиница с завтраком, обед, билеты", g(315), g(350), "350 лари, со скидкой компании 315");
+      add("Ужин, обед второго дня, напитки", g(70), g(110), "оценка");
+      add("Канатка Хацвали, если не входит в тур", 0, g(30));
+    } else {
+      if (v === "driver") {
+        var vans = n > 8 ? 2 : 1;
+        add(vans === 2 ? "Два минивэна с водителями, 2 дня" : "Минивэн с водителем, 2 дня", u(500) * vans / n, u(700) * vans / n, "500-700 $ за машину, делится на всех");
+      } else {
+        var rent, cars, label;
+        if (n === 6) { rent = [2 * u(60), 2 * u(100)]; cars = 1; label = "Минивэн на 7 мест, 2 суток"; }
+        else if (n === 8) { rent = [2 * 80, 2 * 120]; cars = 1; label = "Минивэн на 8-9 мест, 2 суток"; }
+        else { rent = [2 * (u(60) + u(40)), 2 * (u(100) + u(60))]; cars = 2; label = "Минивэн и кроссовер, 2 суток"; }
+        add(label, rent[0] / n, rent[1] / n, "делится на всех");
+        add("Бензин, около 650 км", cars * g(230) / n, cars * g(300) / n, cars === 2 ? "две машины" : "");
+      }
+      add("Гостевой дом с завтраком", g(70), g(100));
+      add("Два обеда и ужин", g(90), g(130), "оценка");
+      add("Канатка, музеи, Башня любви", g(30), g(60), "оценка");
+    }
+    var lo = 0, hi = 0;
+    rows.forEach(function(r){ lo += r.lo; hi += r.hi; });
+    return { rows: rows, lo: lo, hi: hi };
+  }
+
+  var EXC = {
+    walk: function(n){ return n <= 4 ? 80 : 20 * n; },
+    adjara: function(n){ return n <= 3 ? 149 : 49 * n; },
+    canyons: function(n){ return n <= 8 ? (n <= 3 ? 210 : 53 * n) : 60 * n; },
+    gomis: function(n){ return 55 * n; },
+    wine: function(n){ return 49 * n; }
+  };
+
+  function fmt(x){ return Math.round(x).toLocaleString("ru-RU"); }
+  function rng(lo, hi, step){
+    var a = Math.round(lo / step) * step, b = Math.round(hi / step) * step;
+    return (a === b ? fmt(a) : fmt(a) + "-" + fmt(b)) + " €";
+  }
+  function each(sel, fn){ Array.prototype.forEach.call(document.querySelectorAll(sel), fn); }
+  function has(attr, val){ return attr.split(" ").indexOf(val) > -1; }
+
+  function render(){
+    var n = state.n, v = state.v;
+    document.getElementById("n" + n).checked = true;
+    document.getElementById("v" + v).checked = true;
+    each("[data-v]", function(el){ el.hidden = !has(el.getAttribute("data-v"), v); });
+    each("[data-n]", function(el){ el.hidden = !has(el.getAttribute("data-n"), String(n)); });
+    each("[data-opt]", function(el){ el.classList.toggle("on", el.getAttribute("data-opt") === v); });
+    each("[data-row]", function(el){ el.classList.toggle("on", el.getAttribute("data-row") === v); });
+    each("[data-n-text]", function(el){ el.textContent = n; });
+    each("[data-vname]", function(el){ el.textContent = VNAME[v]; });
+    each("[data-vname-l]", function(el){ el.textContent = VNAME[v]; });
+    each("[data-vname-s]", function(el){ el.textContent = VSHORT[v]; });
+
+    ["tour", "driver", "car"].forEach(function(k){
+      var s = svaneti(k, n);
+      each('[data-sv="' + k + '"]', function(el){ el.textContent = rng(s.lo, s.hi, 5); });
+      each('[data-svg="' + k + '"]', function(el){ el.textContent = rng(s.lo * n, s.hi * n, 10); });
+    });
+    Object.keys(EXC).forEach(function(k){
+      var total = EXC[k](n);
+      each('[data-group="' + k + '"]', function(el){ el.textContent = fmt(total) + " €"; });
+      each('[data-pp="' + k + '"]', function(el){ el.textContent = fmt(total / n) + " €"; });
+    });
+
+    var s = svaneti(v, n);
+    var body = document.querySelector("#breakdown tbody");
+    body.innerHTML = "";
+    s.rows.forEach(function(r){
+      var tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + r.label + (r.note ? '<span class="sub">' + r.note + "</span>" : "") + '</td><td class="num">' + rng(r.lo, r.hi, 1) + "</td>";
+      body.appendChild(tr);
+    });
+    document.querySelector("#breakdown tfoot").innerHTML =
+      '<tr><th>Итого с человека</th><td class="num">' + rng(s.lo, s.hi, 5) + "</td></tr>" +
+      "<tr><th>На " + n + ' человек</th><td class="num">' + rng(s.lo * n, s.hi * n, 10) + "</td></tr>";
+
+    var b = [
+      ["Сванетия, " + VSHORT[v], s.lo, s.hi],
+      ["Прогулка с гидом по Батуми", EXC.walk(n) / n, EXC.walk(n) / n],
+      ['Ботанический сад и канатка "Арго"', g(59), g(59)],
+      ["Каньоны: экскурсия", EXC.canyons(n) / n, EXC.canyons(n) / n],
+      ["Каньоны: входные и лодки", g(110), g(160)],
+      ["Горная Аджария", EXC.adjara(n) / n, EXC.adjara(n) / n]
+    ];
+    var lo = 0, hi = 0, bb = document.querySelector("#bud tbody");
+    bb.innerHTML = "";
+    b.forEach(function(r){
+      lo += r[1]; hi += r[2];
+      var tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + r[0] + '</td><td class="num">' + rng(r[1], r[2], 1) + "</td>";
+      bb.appendChild(tr);
+    });
+    document.querySelector("#bud tfoot").innerHTML =
+      '<tr><th>Итого с человека</th><td class="num">' + rng(lo, hi, 5) + "</td></tr>" +
+      "<tr><th>На " + n + ' человек</th><td class="num">' + rng(lo * n, hi * n, 10) + "</td></tr>";
+
+    try { localStorage.setItem("batumi-2027", JSON.stringify(state)); } catch (e) {}
+  }
+
+  document.addEventListener("change", function(e){
+    var t = e.target;
+    if (t.name === "n") { state.n = Number(t.value); render(); }
+    if (t.name === "v") { state.v = t.value; render(); }
+  });
+  render();
+})();
+</script>
+</body>
+</html>
